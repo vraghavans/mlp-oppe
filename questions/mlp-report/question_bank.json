@@ -1,0 +1,1000 @@
+[
+  {
+    "pattern_id": "PAT-73cc859c52",
+    "topic": "Preprocessing / Data Cleaning",
+    "subtopic": "Data Analysis",
+    "algorithm": [],
+    "question_type": "open",
+    "question": "## 2. What is the total number of missing or unknown values in the column `Age`?",
+    "context": {
+      "code_context": [
+        "# check the unique values & calculate the shape of irrelevants\nlen(df[df['Age']<0])",
+        "# check the unique values & calculate the shape of irrelevants\nlen(df[df['GlucoseLevel']<0])",
+        "# check the unique values & calculate the shape of irrelevants\ndf[df['LivesIn']=='Unknown'].shape",
+        "# check the unique values & calculate the shape of irrelevants\ndf['BMI'].isna().sum()"
+      ]
+    },
+    "parameters": {},
+    "asks_for": [],
+    "answer_type": "unknown",
+    "precision": null,
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    },
+    "answer": {
+      "status": "requires_execution",
+      "source_answers": []
+    },
+    "question_id": "MLP-OPPE-CAN-0001",
+    "canonical_question": "## 2. What is the total number of missing or unknown values in the column `Age`?",
+    "source_evidence": {
+      "source_count": 1
+    }
+  },
+  {
+    "pattern_id": "PAT-73cc859c52",
+    "topic": "Preprocessing / Data Cleaning",
+    "subtopic": "Data Analysis",
+    "algorithm": [],
+    "question_type": "open",
+    "question": "## 3. What is the total number of missing or unknown values in the column `GlucoseLevel`?",
+    "context": {
+      "code_context": [
+        "# check the unique values & calculate the shape of irrelevants\nlen(df[df['GlucoseLevel']<0])",
+        "# check the unique values & calculate the shape of irrelevants\ndf[df['LivesIn']=='Unknown'].shape",
+        "# check the unique values & calculate the shape of irrelevants\ndf['BMI'].isna().sum()",
+        "# check the unique values & calculate the shape of irrelevants\ndf['SmokingStatus'].value_counts() # categroical variables / features - value_count"
+      ]
+    },
+    "parameters": {},
+    "asks_for": [],
+    "answer_type": "unknown",
+    "precision": null,
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    },
+    "answer": {
+      "status": "requires_execution",
+      "source_answers": []
+    },
+    "question_id": "MLP-OPPE-CAN-0002",
+    "canonical_question": "## 3. What is the total number of missing or unknown values in the column `GlucoseLevel`?",
+    "source_evidence": {
+      "source_count": 1
+    }
+  },
+  {
+    "pattern_id": "PAT-73cc859c52",
+    "topic": "Preprocessing / Data Cleaning",
+    "subtopic": "Data Analysis",
+    "algorithm": [],
+    "question_type": "open",
+    "question": "## 4. What is the total number of missing or unknown values in the column `LivesIn`?",
+    "context": {
+      "code_context": [
+        "# check the unique values & calculate the shape of irrelevants\ndf[df['LivesIn']=='Unknown'].shape",
+        "# check the unique values & calculate the shape of irrelevants\ndf['BMI'].isna().sum()",
+        "# check the unique values & calculate the shape of irrelevants\ndf['SmokingStatus'].value_counts() # categroical variables / features - value_count",
+        "# check the unique values & calculate the shape of irrelevants\ndf['BMI'].mean(axis = None)"
+      ]
+    },
+    "parameters": {},
+    "asks_for": [],
+    "answer_type": "unknown",
+    "precision": null,
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    },
+    "answer": {
+      "status": "requires_execution",
+      "source_answers": []
+    },
+    "question_id": "MLP-OPPE-CAN-0003",
+    "canonical_question": "## 4. What is the total number of missing or unknown values in the column `LivesIn`?",
+    "source_evidence": {
+      "source_count": 1
+    }
+  },
+  {
+    "pattern_id": "PAT-73cc859c52",
+    "topic": "Preprocessing / Data Cleaning",
+    "subtopic": "Data Analysis",
+    "algorithm": [],
+    "question_type": "open",
+    "question": "## 5. What is the total number of missing or unknown values in the column `BMI`?",
+    "context": {
+      "code_context": [
+        "# check the unique values & calculate the shape of irrelevants\ndf['BMI'].isna().sum()",
+        "# check the unique values & calculate the shape of irrelevants\ndf['SmokingStatus'].value_counts() # categroical variables / features - value_count",
+        "# check the unique values & calculate the shape of irrelevants\ndf['BMI'].mean(axis = None)",
+        "df['LivesIn'].unique()"
+      ]
+    },
+    "parameters": {},
+    "asks_for": [],
+    "answer_type": "unknown",
+    "precision": null,
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    },
+    "answer": {
+      "status": "requires_execution",
+      "source_answers": []
+    },
+    "question_id": "MLP-OPPE-CAN-0004",
+    "canonical_question": "## 5. What is the total number of missing or unknown values in the column `BMI`?",
+    "source_evidence": {
+      "source_count": 1
+    }
+  },
+  {
+    "pattern_id": "PAT-73cc859c52",
+    "topic": "Preprocessing / Data Cleaning",
+    "subtopic": "Data Analysis",
+    "algorithm": [],
+    "question_type": "open",
+    "question": "## 6. What is the total number of missing or unknown values in the column `SmokingStatus`?\n (Hint: carefully look at the values the feature takes and find out implausible value(s).)",
+    "context": {
+      "code_context": [
+        "# check the unique values & calculate the shape of irrelevants\ndf['SmokingStatus'].value_counts() # categroical variables / features - value_count",
+        "# check the unique values & calculate the shape of irrelevants\ndf['BMI'].mean(axis = None)",
+        "df['LivesIn'].unique()",
+        "df['SmokingStatus'].unique()",
+        "df['HeartAttack'].unique()"
+      ]
+    },
+    "parameters": {},
+    "asks_for": [],
+    "answer_type": "unknown",
+    "precision": null,
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    },
+    "answer": {
+      "status": "requires_execution",
+      "source_answers": []
+    },
+    "question_id": "MLP-OPPE-CAN-0005",
+    "canonical_question": "## 6. What is the total number of missing or unknown values in the column `SmokingStatus`?\n (Hint: carefully look at the values the feature takes and find out implausible value(s).)",
+    "source_evidence": {
+      "source_count": 1
+    }
+  },
+  {
+    "pattern_id": "PAT-3d35ab6f64",
+    "topic": "Preprocessing / Data Cleaning",
+    "subtopic": "Data Analysis",
+    "algorithm": [],
+    "question_type": "open",
+    "question": "## 7. What is the mean value of the `BMI` in the dataset? Ignore the missing values if any",
+    "context": {
+      "code_context": [
+        "# check the unique values & calculate the shape of irrelevants\ndf['BMI'].mean(axis = None)",
+        "df['LivesIn'].unique()",
+        "df['SmokingStatus'].unique()",
+        "df['HeartAttack'].unique()",
+        "# find relevant column values\n# LivesIn - \"CITY\"\n# SmokingStatus - \"smokes\" , \"formely smoked\"\n# Heart Attack - \"yes\"",
+        "# perfrom the filtering\nfilter_cond = (df['LivesIn']==\"City\") & (df['SmokingStatus'].isin([\"smokes\", \"formerly smoked\"])) & (df['HeartAttack'] == \"Yes\")\n\nfilter_cond"
+      ]
+    },
+    "parameters": {},
+    "asks_for": [
+      "mean",
+      "missing values"
+    ],
+    "answer_type": "unknown",
+    "precision": null,
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    },
+    "answer": {
+      "status": "requires_execution",
+      "source_answers": []
+    },
+    "question_id": "MLP-OPPE-CAN-0006",
+    "canonical_question": "## 7. What is the mean value of the `BMI` in the dataset? Ignore the missing values if any",
+    "source_evidence": {
+      "source_count": 1
+    }
+  },
+  {
+    "pattern_id": "PAT-7dedc6ee35",
+    "topic": "Preprocessing / Data Cleaning",
+    "subtopic": "Data Analysis",
+    "algorithm": [],
+    "question_type": "open",
+    "question": "## 8. How many people live in city, smoked at least once in life and had a heartattack? Ignore records/rows with any missing values.",
+    "context": {
+      "code_context": [
+        "df['LivesIn'].unique()",
+        "df['SmokingStatus'].unique()",
+        "df['HeartAttack'].unique()",
+        "# find relevant column values\n# LivesIn - \"CITY\"\n# SmokingStatus - \"smokes\" , \"formely smoked\"\n# Heart Attack - \"yes\"",
+        "# perfrom the filtering\nfilter_cond = (df['LivesIn']==\"City\") & (df['SmokingStatus'].isin([\"smokes\", \"formerly smoked\"])) & (df['HeartAttack'] == \"Yes\")\n\nfilter_cond",
+        "# calcuate the shape\ndf[filter_cond].shape"
+      ]
+    },
+    "parameters": {},
+    "asks_for": [
+      "missing values"
+    ],
+    "answer_type": "unknown",
+    "precision": null,
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    },
+    "answer": {
+      "status": "requires_execution",
+      "source_answers": []
+    },
+    "question_id": "MLP-OPPE-CAN-0007",
+    "canonical_question": "## 8. How many people live in city, smoked at least once in life and had a heartattack? Ignore records/rows with any missing values.",
+    "source_evidence": {
+      "source_count": 1
+    }
+  },
+  {
+    "pattern_id": "PAT-7dedc6ee35",
+    "topic": "Preprocessing / Data Cleaning",
+    "subtopic": "Data Analysis",
+    "algorithm": [],
+    "question_type": "open",
+    "question": "## 9. Which of the following categories have highest frequency? Ignore rows with missing values.\n\n1. female patients without tension, without any heart disease and never married\n2. female patients without tension, without any heart disease and either currently married or married before\n3. male patients without tension, without any heart disease and never married\n4. male patients with tension, with a heart disease and never married\n5. There is a tie between 2 or more options.",
+    "context": {
+      "code_context": [
+        "# check for each option using filtering. Ensure to use right columns, values and filtering condition\n# Gender, marriage , HeartAttack\ndf['Gender'].unique()",
+        "df['NeverMarried'].unique()",
+        "df['HeartAttack'].unique()",
+        "df['HasTension'].unique()",
+        "# 1\n# female patients without tension, without any heart disease and never married\nfilter_cond1 = (df['Gender']==\"Female\") & (df[\"HasTension\"]==\"No\") & (df[\"AnyHeartDisease\"] == \"No\") & (df[\"NeverMarried\"]==\"Yes\")\ndf[filter_cond1].shape",
+        "# 2\n# female patients without tension, without any heart disease and either currently married or married before\nfilter_cond2 = (df['Gender']==\"Female\") & (df[\"HasTension\"]==\"No\") & (df[\"AnyHeartDisease\"] == \"No\") & (df[\"NeverMarried\"]==\"No\")\ndf[filter_cond2].shape",
+        "# 3\n# male patients without tension, without any heart disease and never married\nfilter_cond3 = (df['Gender']==\"Male\") & (df[\"HasTension\"]==\"No\") & (df[\"AnyHeartDisease\"] == \"No\") & (df[\"NeverMarried\"]==\"No\")\ndf[filter_cond3].shape"
+      ]
+    },
+    "parameters": {},
+    "asks_for": [
+      "missing values"
+    ],
+    "answer_type": "unknown",
+    "precision": null,
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    },
+    "answer": {
+      "status": "requires_execution",
+      "source_answers": []
+    },
+    "question_id": "MLP-OPPE-CAN-0008",
+    "canonical_question": "## 9. Which of the following categories have highest frequency? Ignore rows with missing values.\n\n1. female patients without tension, without any heart disease and never married\n2. female patients without tension, without any heart disease and either currently married or married before\n3. male patients without tension, without any heart disease and never married\n4. male patients with tension, with a heart disease and never married\n5. There is a tie between 2 or more options.",
+    "source_evidence": {
+      "source_count": 1
+    }
+  },
+  {
+    "pattern_id": "PAT-c941f481b7",
+    "topic": "Data Understanding / Statistics",
+    "subtopic": "Data Analysis",
+    "algorithm": [],
+    "question_type": "open",
+    "question": "## 10. Select columns with categorical values?\n\n1. Gender\n2. BMI\n3. NeverMarried\n4. SmokingStatus\n5. GlucoseLevel\n6. HeartAttack\n7. None of these",
+    "context": {
+      "code_context": [
+        "# get info\ndf.info()",
+        "# filter only based on object data type\ndf.select_dtypes(include=['object']).columns",
+        "# check each ones unique values - best option\ndf['Gender'].unique()",
+        "# check the count of yes & no\ndf['HeartAttack'].value_counts()"
+      ]
+    },
+    "parameters": {},
+    "asks_for": [],
+    "answer_type": "unknown",
+    "precision": null,
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    },
+    "answer": {
+      "status": "requires_execution",
+      "source_answers": []
+    },
+    "question_id": "MLP-OPPE-CAN-0009",
+    "canonical_question": "## 10. Select columns with categorical values?\n\n1. Gender\n2. BMI\n3. NeverMarried\n4. SmokingStatus\n5. GlucoseLevel\n6. HeartAttack\n7. None of these",
+    "source_evidence": {
+      "source_count": 1
+    }
+  },
+  {
+    "pattern_id": "PAT-495707279a",
+    "topic": "Data Understanding / Statistics",
+    "subtopic": "Data Analysis",
+    "algorithm": [],
+    "question_type": "open",
+    "question": "## 11. `HeartAttack` is the target column. What is the distribution count of \"No\" and \"Yes\" classes?",
+    "context": {
+      "code_context": [
+        "# check the count of yes & no\ndf['HeartAttack'].value_counts()",
+        "# sklearn imports\nfrom sklearn.model_selection import train_test_split",
+        "# split the dataset\nX = df.drop(\"HeartAttack\", axis = 1)\ny = df[\"HeartAttack\"]",
+        "# convert y\ny = y.replace({\"Yes\": 1, \"No\": 0})"
+      ]
+    },
+    "parameters": {},
+    "asks_for": [
+      "distribution"
+    ],
+    "answer_type": "unknown",
+    "precision": null,
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    },
+    "answer": {
+      "status": "requires_execution",
+      "source_answers": []
+    },
+    "question_id": "MLP-OPPE-CAN-0010",
+    "canonical_question": "## 11. `HeartAttack` is the target column. What is the distribution count of \"No\" and \"Yes\" classes?",
+    "source_evidence": {
+      "source_count": 1
+    }
+  },
+  {
+    "pattern_id": "PAT-714b064d1b",
+    "topic": "Data Understanding / Statistics",
+    "subtopic": "Data Analysis",
+    "algorithm": [],
+    "question_type": "open",
+    "question": "## 12.Shape of the feature matrix of training dataset.",
+    "context": {
+      "code_context": [
+        "# get the shape of returned matrix\nX_train_processed.shape",
+        "# transfrom dataset\nX_test_transformed = preprocessor.transform(X_test)\n\n# mean\nX_test_transformed.mean(axis = None)",
+        "# load rfe \nfrom sklearn.feature_selection import RFE\nfrom sklearn.linear_model import LogisticRegression",
+        "y_train = y_train.astype(int)",
+        "#  rfe , logreg\nlogreg = LogisticRegression(random_state = 1729)\n\n# rfe\nrfe = RFE(estimator = logreg, n_features_to_select=X_train_processed.shape[1]-1)\n\n# run the ref\nrfe.fit(X_train_processed , y_train)"
+      ]
+    },
+    "parameters": {},
+    "asks_for": [
+      "shape"
+    ],
+    "answer_type": "unknown",
+    "precision": null,
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    },
+    "answer": {
+      "status": "requires_execution",
+      "source_answers": []
+    },
+    "question_id": "MLP-OPPE-CAN-0011",
+    "canonical_question": "## 12.Shape of the feature matrix of training dataset.",
+    "source_evidence": {
+      "source_count": 1
+    }
+  },
+  {
+    "pattern_id": "PAT-5b3507ac1f",
+    "topic": "Data Understanding / Statistics",
+    "subtopic": "Data Analysis",
+    "algorithm": [],
+    "question_type": "open",
+    "question": "## 13. What is the mean of transformed test dataset?",
+    "context": {
+      "code_context": [
+        "# transfrom dataset\nX_test_transformed = preprocessor.transform(X_test)\n\n# mean\nX_test_transformed.mean(axis = None)",
+        "# load rfe \nfrom sklearn.feature_selection import RFE\nfrom sklearn.linear_model import LogisticRegression",
+        "y_train = y_train.astype(int)",
+        "#  rfe , logreg\nlogreg = LogisticRegression(random_state = 1729)\n\n# rfe\nrfe = RFE(estimator = logreg, n_features_to_select=X_train_processed.shape[1]-1)\n\n# run the ref\nrfe.fit(X_train_processed , y_train)",
+        "# get the support\nrfe.support_",
+        "rfe.ranking_"
+      ]
+    },
+    "parameters": {},
+    "asks_for": [
+      "mean"
+    ],
+    "answer_type": "unknown",
+    "precision": null,
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    },
+    "answer": {
+      "status": "requires_execution",
+      "source_answers": []
+    },
+    "question_id": "MLP-OPPE-CAN-0012",
+    "canonical_question": "## 13. What is the mean of transformed test dataset?",
+    "source_evidence": {
+      "source_count": 1
+    }
+  },
+  {
+    "pattern_id": "PAT-3188553802",
+    "topic": "LogisticRegression",
+    "subtopic": "Data Analysis",
+    "algorithm": [
+      "LogisticRegression"
+    ],
+    "question_type": "open",
+    "question": "## 14. Eliminate 1 feature with recuvrsive feature elimination which feature will be eliminated - `LogisticRegression Model (random_state = 1729)`",
+    "context": {
+      "code_context": [
+        "# load rfe \nfrom sklearn.feature_selection import RFE\nfrom sklearn.linear_model import LogisticRegression",
+        "y_train = y_train.astype(int)",
+        "#  rfe , logreg\nlogreg = LogisticRegression(random_state = 1729)\n\n# rfe\nrfe = RFE(estimator = logreg, n_features_to_select=X_train_processed.shape[1]-1)\n\n# run the ref\nrfe.fit(X_train_processed , y_train)",
+        "# get the support\nrfe.support_",
+        "rfe.ranking_"
+      ]
+    },
+    "parameters": {},
+    "asks_for": [
+      "mode"
+    ],
+    "answer_type": "unknown",
+    "precision": null,
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    },
+    "answer": {
+      "status": "requires_execution",
+      "source_answers": []
+    },
+    "question_id": "MLP-OPPE-CAN-0013",
+    "canonical_question": "## 14. Eliminate 1 feature with recuvrsive feature elimination which feature will be eliminated - `LogisticRegression Model (random_state = 1729)`",
+    "source_evidence": {
+      "source_count": 1
+    }
+  },
+  {
+    "pattern_id": "PAT-38143c15ce",
+    "topic": "Data Understanding / Statistics",
+    "subtopic": "Model Training / Configuration",
+    "algorithm": [],
+    "question_type": "mcq",
+    "question": "###Q1. [marks : 0] Which dataset are you using for this exam?\n\nOptions:\n\nA) V1\n\nB) V2\n\nC) V3\n\nD) V4\n\nE) V5",
+    "context": {
+      "code_context": [
+        "rs = 64\n\nimport numpy as np\nimport pandas as pd\nimport matplotlib.pyplot as plt\nimport seaborn as sns",
+        "from sklearn.model_selection import train_test_split,GridSearchCV,RandomizedSearchCV, KFold\n\n# Estimators\nfrom sklearn.linear_model import LogisticRegression,Perceptron,SGDClassifier\nfrom sklearn.svm import SVC\n\nfrom sklearn.neighbors import KNeighborsClassifier\nfrom sklearn.tree import DecisionTreeClassifier\nfrom sklearn.ensemble import BaggingClassifier,RandomForestClassifier,GradientBoostingClassifier,AdaBoostClassifier\n\nfrom sklearn.metrics import confusion_matrix\nfrom sklearn.model_selection import GridSearchCV\n\n# Metrics\nfrom sklearn.metrics import accuracy_score,recall_score,f1_score,precision_score\nfrom sklearn.metrics import ConfusionMatrixDisplay, classification_report",
+        "# from google.colab import drive\n# drive.mount('/content/gdrive/', force_remount=True)",
+        "dataset = 'V5'\ndata = pd.read_csv('/content/preprocessed_data.csv')\n# data = pd.read_csv(f\"/content/gdrive/MyDrive/OPPE2 April 16/Dataset Versions/{dataset}.csv\")",
+        "data.head()",
+        "data.info()"
+      ]
+    },
+    "parameters": {},
+    "asks_for": [],
+    "answer_type": "choice",
+    "precision": null,
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    },
+    "answer": {
+      "status": "source_stated_unverified",
+      "source_answers": [
+        "Answer:\nV1: A, V2:B, V3: C, V4:D, V5:E",
+        "Answer:\nV1: A, V2:B, V3: C, V4:D, V5:E"
+      ]
+    },
+    "question_id": "MLP-OPPE-CAN-0014",
+    "canonical_question": "###Q1. [marks : 0] Which dataset are you using for this exam?\n\nOptions:\n\nA) V1\n\nB) V2\n\nC) V3\n\nD) V4\n\nE) V5",
+    "source_evidence": {
+      "source_count": 2
+    }
+  },
+  {
+    "pattern_id": "PAT-c941f481b7",
+    "topic": "Data Understanding / Statistics",
+    "subtopic": "Data Analysis",
+    "algorithm": [],
+    "question_type": "nat",
+    "question": "##Q2 [Marks =3] Break the dataset into features(`X`) and label (`y`), where the column `satisfaction` goes to `y` and the rest of the columns go to `X`. How many data points belonging to `satisfaction` value 1 are there in the dataset ? [NAT]",
+    "context": {
+      "code_context": [
+        "# X = data.iloc[:,:-1]\n# y = data.iloc[:,-1]\nX = data.drop(columns=['satisfaction'])\ny= data['satisfaction']",
+        "y.value_counts()",
+        "# X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 64)\nX_train, X_test,y_train,y_test = train_test_split(X,y,test_size=0.2,random_state=64)\n\n# print(X_train.shape)\n#print(X_test.shape)\nprint(y_train.shape)\n#print(y_test.shape)",
+        "logreg = LogisticRegression(solver='sag',tol=1e-3,max_iter=100,random_state=64)\nlogreg.fit(X_train,y_train)\ny_pred= logreg.predict(X_test)\nrecall_score(y_test,y_pred)",
+        "logistic = LogisticRegression(solver='sag',\n                              tol=1e-3,\n                              max_iter=100,\n                              random_state =64)\nlogistic.fit(X_train, y_train)\n\ny_pred = logistic.predict(X_test)\n\nrecall_score(y_test,y_pred)"
+      ]
+    },
+    "parameters": {},
+    "asks_for": [],
+    "answer_type": "numeric",
+    "precision": null,
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    },
+    "answer": {
+      "status": "source_stated_unverified",
+      "source_answers": [
+        "Answer:\n\nV1: 8916\n\nV2: 8969\n\nV3: 9001\n\nV4: 8899\n\nV5: 8958",
+        "Answer:\n\nV1: 8916\n\nV2: 8969\n\nV3: 9001\n\nV4: 8899\n\nV5: 8958"
+      ]
+    },
+    "question_id": "MLP-OPPE-CAN-0015",
+    "canonical_question": "##Q2 [Marks =3] Break the dataset into features(`X`) and label (`y`), where the column `satisfaction` goes to `y` and the rest of the columns go to `X`. How many data points belonging to `satisfaction` value 1 are there in the dataset ? [NAT]",
+    "source_evidence": {
+      "source_count": 2
+    }
+  },
+  {
+    "pattern_id": "PAT-714b064d1b",
+    "topic": "Data Understanding / Statistics",
+    "subtopic": "Data Analysis",
+    "algorithm": [],
+    "question_type": "open",
+    "question": "##Q3 [Marks : 3] Split the dataset into train and test dataset into the `80:20` ratio while keeping `random_state =64`. What is the shape of the training label vector(`y_train`) dataset?\n\n(A) (20000,)\n\n(B) (16574,27)\n\n(C) (20024,14)\n\n(D) (4522,98)\n\n(E) (16574,)",
+    "context": {
+      "code_context": [
+        "# X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 64)\nX_train, X_test,y_train,y_test = train_test_split(X,y,test_size=0.2,random_state=64)\n\n# print(X_train.shape)\n#print(X_test.shape)\nprint(y_train.shape)\n#print(y_test.shape)",
+        "logreg = LogisticRegression(solver='sag',tol=1e-3,max_iter=100,random_state=64)\nlogreg.fit(X_train,y_train)\ny_pred= logreg.predict(X_test)\nrecall_score(y_test,y_pred)",
+        "logistic = LogisticRegression(solver='sag',\n                              tol=1e-3,\n                              max_iter=100,\n                              random_state =64)\nlogistic.fit(X_train, y_train)\n\ny_pred = logistic.predict(X_test)\n\nrecall_score(y_test,y_pred)",
+        "pcf = Perceptron(fit_intercept=True,warm_start=False,random_state=64)\n\npcf.fit(X_train,y_train)\ny_pred=pcf.predict(X_test)\naccuracy_score(y_test,y_pred)"
+      ]
+    },
+    "parameters": {},
+    "asks_for": [
+      "shape"
+    ],
+    "answer_type": "unknown",
+    "precision": null,
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    },
+    "answer": {
+      "status": "source_stated_unverified",
+      "source_answers": [
+        "Ans: E",
+        "Ans: E"
+      ]
+    },
+    "question_id": "MLP-OPPE-CAN-0016",
+    "canonical_question": "##Q3 [Marks : 3] Split the dataset into train and test dataset into the `80:20` ratio while keeping `random_state =64`. What is the shape of the training label vector(`y_train`) dataset?\n\n(A) (20000,)\n\n(B) (16574,27)\n\n(C) (20024,14)\n\n(D) (4522,98)\n\n(E) (16574,)",
+    "source_evidence": {
+      "source_count": 2
+    }
+  },
+  {
+    "pattern_id": "PAT-f7af5fa6e4",
+    "topic": "LogisticRegression",
+    "subtopic": "Model Evaluation",
+    "algorithm": [
+      "LogisticRegression"
+    ],
+    "question_type": "nat",
+    "question": "##Q4 [4 marks][NAT] Take `LogisticRegression` estimator with following parameters for training:\n  - Use `sag` as solver\n  - Set random state to be equal to 64\n  - Tolerance for stopping criteria to be 1e-3\n  - Maximum number of iterations taken for the solvers to converge to be 100\n\nEnter the recall score for the given model using test set(X_test, y_test)\n\n\nV1: 0.843 (Range : 0.83 , 0.86)\n\nV2: 0.829 (Range: 0.80 , 0.860)\n\nV3: 0.840 (Range: 0.80 , 0.870)\n  \nV4: 0.820 (Range: 0.80 , 0.840)  \n   \nV5: 0.840 (Range: 0.81 , 0.880)",
+    "context": {
+      "code_context": [
+        "logreg = LogisticRegression(solver='sag',tol=1e-3,max_iter=100,random_state=64)\nlogreg.fit(X_train,y_train)\ny_pred= logreg.predict(X_test)\nrecall_score(y_test,y_pred)",
+        "logistic = LogisticRegression(solver='sag',\n                              tol=1e-3,\n                              max_iter=100,\n                              random_state =64)\nlogistic.fit(X_train, y_train)\n\ny_pred = logistic.predict(X_test)\n\nrecall_score(y_test,y_pred)",
+        "pcf = Perceptron(fit_intercept=True,warm_start=False,random_state=64)\n\npcf.fit(X_train,y_train)\ny_pred=pcf.predict(X_test)\naccuracy_score(y_test,y_pred)",
+        "# clf = Perceptron(random_state=64,fit_intercept=True, warm_start=False)\n# clf.fit(X_train,y_train)\n\n# y_pred = clf.predict(X_test)\n# accuracy_score(y_test,y_pred)"
+      ]
+    },
+    "parameters": {},
+    "asks_for": [
+      "recall",
+      "mode"
+    ],
+    "answer_type": "numeric",
+    "precision": null,
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    },
+    "answer": {
+      "status": "requires_execution",
+      "source_answers": []
+    },
+    "question_id": "MLP-OPPE-CAN-0017",
+    "canonical_question": "##Q4 [4 marks][NAT] Take `LogisticRegression` estimator with following parameters for training:\n  - Use `sag` as solver\n  - Set random state to be equal to 64\n  - Tolerance for stopping criteria to be 1e-3\n  - Maximum number of iterations taken for the solvers to converge to be 100\n\nEnter the recall score for the given model using test set(X_test, y_test)\n\n\nV1: 0.843 (Range : 0.83 , 0.86)\n\nV2: 0.829 (Range: 0.80 , 0.860)\n\nV3: 0.840 (Range: 0.80 , 0.870)\n  \nV4: 0.820 (Range: 0.80 , 0.840)  \n   \nV5: 0.840 (Range: 0.81 , 0.880)",
+    "source_evidence": {
+      "source_count": 2
+    }
+  },
+  {
+    "pattern_id": "PAT-6f8f34c216",
+    "topic": "Perceptron",
+    "subtopic": "Model Evaluation",
+    "algorithm": [
+      "Perceptron"
+    ],
+    "question_type": "nat",
+    "question": "## Q5[Marks : 4][NAT] Fit this perceptron model with the training dataset and write the accuracy for the test data.\n\nV1: 0.842 (range: 0.82,0.86)\n\nV2: 0.821 (range: 0.80, 0.845)\n\nV3: 0.842 (range: 0.82,0.86)\n\nV4: 0.845 (range: 0.82, 0.87)\n\nV5: 0.856 (range: 0.835, 0.88)",
+    "context": {
+      "code_context": [
+        "pcf = Perceptron(fit_intercept=True,warm_start=False,random_state=64)\n\npcf.fit(X_train,y_train)\ny_pred=pcf.predict(X_test)\naccuracy_score(y_test,y_pred)",
+        "# clf = Perceptron(random_state=64,fit_intercept=True, warm_start=False)\n# clf.fit(X_train,y_train)\n\n# y_pred = clf.predict(X_test)\n# accuracy_score(y_test,y_pred)",
+        "pcf.intercept_",
+        "sgd = SGDClassifier(loss='log_loss',penalty='l2',max_iter=10,eta0=0.01,alpha=0.001,warm_start=False,learning_rate='constant',random_state=64)\nsgd.fit(X_train,y_train)\ny_pred=sgd.predict(X_test)\nf1_score(y_test,y_pred)",
+        "logistic_sgd = SGDClassifier(loss='log_loss',\n                        penalty='l2',\n                        max_iter=10,\n                        warm_start=False,\n                        eta0=0.01,\n                        alpha=0.001,\n                        learning_rate='constant',\n                        random_state=64)\n\nlogistic_sgd.fit(X_train,y_train)"
+      ]
+    },
+    "parameters": {},
+    "asks_for": [
+      "accuracy",
+      "mode"
+    ],
+    "answer_type": "numeric",
+    "precision": null,
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    },
+    "answer": {
+      "status": "requires_execution",
+      "source_answers": []
+    },
+    "question_id": "MLP-OPPE-CAN-0018",
+    "canonical_question": "## Q5[Marks : 4][NAT] Fit this perceptron model with the training dataset and write the accuracy for the test data.\n\nV1: 0.842 (range: 0.82,0.86)\n\nV2: 0.821 (range: 0.80, 0.845)\n\nV3: 0.842 (range: 0.82,0.86)\n\nV4: 0.845 (range: 0.82, 0.87)\n\nV5: 0.856 (range: 0.835, 0.88)",
+    "source_evidence": {
+      "source_count": 2
+    }
+  },
+  {
+    "pattern_id": "PAT-7b0637d453",
+    "topic": "Perceptron",
+    "subtopic": "Data Analysis",
+    "algorithm": [
+      "Perceptron"
+    ],
+    "question_type": "nat",
+    "question": "## Q6[Marks : 4]  [NAT] What is the value of bias (intercept) for the perceptron model you got (upto 1 decimal point) ?",
+    "context": {
+      "code_context": [
+        "pcf.intercept_",
+        "sgd = SGDClassifier(loss='log_loss',penalty='l2',max_iter=10,eta0=0.01,alpha=0.001,warm_start=False,learning_rate='constant',random_state=64)\nsgd.fit(X_train,y_train)\ny_pred=sgd.predict(X_test)\nf1_score(y_test,y_pred)",
+        "logistic_sgd = SGDClassifier(loss='log_loss',\n                        penalty='l2',\n                        max_iter=10,\n                        warm_start=False,\n                        eta0=0.01,\n                        alpha=0.001,\n                        learning_rate='constant',\n                        random_state=64)\n\nlogistic_sgd.fit(X_train,y_train)",
+        "f1_score(y_test,  logistic_sgd.predict(X_test))",
+        "from sklearn.metrics import classification_report\nprint(classification_report(y_test, logistic_sgd.predict(X_test)))"
+      ]
+    },
+    "parameters": {},
+    "asks_for": [
+      "bias",
+      "intercept",
+      "mode"
+    ],
+    "answer_type": "numeric",
+    "precision": null,
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    },
+    "answer": {
+      "status": "source_stated_unverified",
+      "source_answers": [
+        "Ans:\n\nV1: -10.0\n\nV2: -12.0\n\nV3: -10.0\n\nV4: -11.0\n\nV5: -10.0",
+        "Ans:\n\nV1: -10.0\n\nV2: -12.0\n\nV3: -10.0\n\nV4: -11.0\n\nV5: -10.0"
+      ]
+    },
+    "question_id": "MLP-OPPE-CAN-0019",
+    "canonical_question": "## Q6[Marks : 4]  [NAT] What is the value of bias (intercept) for the perceptron model you got (upto 1 decimal point) ?",
+    "source_evidence": {
+      "source_count": 2
+    }
+  },
+  {
+    "pattern_id": "PAT-6732655069",
+    "topic": "SGDClassifier",
+    "subtopic": "Model Evaluation",
+    "algorithm": [
+      "SGDClassifier",
+      "Ridge"
+    ],
+    "question_type": "nat",
+    "question": "##Q 7  [6 marks] [NAT] Use  `SGDClassifier` on the training dataset (`X_train` and `y_train`) to train the model. Use the following parameters:\n\n1. `log_loss`is the loss function to be used\n2. apply ridge regularization,\n3. maximum number of passes over the training data is 10\n4. constant learning rate of 0.01,\n5. regularization rate value is 0.001,\n6. Take random_state=64.\n7. Set warm_start as False\n\nNote : Please ignore the convergence warning.\n\nUsing above model, calculate and write the correct value of f1_score for the test set.",
+    "context": {
+      "code_context": [
+        "sgd = SGDClassifier(loss='log_loss',penalty='l2',max_iter=10,eta0=0.01,alpha=0.001,warm_start=False,learning_rate='constant',random_state=64)\nsgd.fit(X_train,y_train)\ny_pred=sgd.predict(X_test)\nf1_score(y_test,y_pred)",
+        "logistic_sgd = SGDClassifier(loss='log_loss',\n                        penalty='l2',\n                        max_iter=10,\n                        warm_start=False,\n                        eta0=0.01,\n                        alpha=0.001,\n                        learning_rate='constant',\n                        random_state=64)\n\nlogistic_sgd.fit(X_train,y_train)",
+        "f1_score(y_test,  logistic_sgd.predict(X_test))",
+        "from sklearn.metrics import classification_report\nprint(classification_report(y_test, logistic_sgd.predict(X_test)))",
+        "knn_clf = KNeighborsClassifier(metric = 'minkowski', p = 2)\n\ngs_cv = GridSearchCV(knn_clf,\n                  param_grid= {'n_neighbors':[1,3,7,11]},\n                  scoring='accuracy',\n                  cv=5)\n\ngs_cv.fit(X_train,y_train)\ngs_cv.best_params_"
+      ]
+    },
+    "parameters": {},
+    "asks_for": [
+      "f1_score",
+      "mode"
+    ],
+    "answer_type": "numeric",
+    "precision": null,
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    },
+    "answer": {
+      "status": "source_stated_unverified",
+      "source_answers": [
+        "Ans:\n\nV1. 0.861 (Range: 0.850, 0.870)\n\nV2: 0.845 (Range: 0.835, 0.855)\n\nV3: 0.853 (Range: 0.810, 0.880)\n\nV4: 0.832 (Range: 0.82, 0.840)\n\nV5: 0.852 (Range: 0.840, 0.860)\n\n#### New ranges\n\nV1. 0.861 (Range: 0.850, 0.950)\n\nV2: 0.845 (Range: 0.835, 0.94)\n\nV3: 0.853 (Range: 0.810, 0.95)\n\nV4: 0.832 (Range: 0.82, 0.94)\n\nV5: 0.852 (Range: 0.840, 0.94)"
+      ]
+    },
+    "question_id": "MLP-OPPE-CAN-0020",
+    "canonical_question": "##Q 7  [6 marks] [NAT] Use  `SGDClassifier` on the training dataset (`X_train` and `y_train`) to train the model. Use the following parameters:\n\n1. `log_loss`is the loss function to be used\n2. apply ridge regularization,\n3. maximum number of passes over the training data is 10\n4. constant learning rate of 0.01,\n5. regularization rate value is 0.001,\n6. Take random_state=64.\n7. Set warm_start as False\n\nNote : Please ignore the convergence warning.\n\nUsing above model, calculate and write the correct value of f1_score for the test set.",
+    "source_evidence": {
+      "source_count": 1
+    }
+  },
+  {
+    "pattern_id": "PAT-c1ffc1c0ac",
+    "topic": "KNeighborsClassifier",
+    "subtopic": "Hyperparameter Tuning",
+    "algorithm": [
+      "KNeighborsClassifier"
+    ],
+    "question_type": "mcq",
+    "question": "## Q8. [4 marks] [MCQ] Use Gridsearchcv with KNeighborsClassifier estimator, accuracy as scoring parameter, cv= 5. Consider [1,3,7,11] as K values to be examined.\n* Consider following parameters for KNeighborsClassifier:\n\n - Take metric as 'minkowski',\n - Set P value as 2\n\n- Keep other parameter values as default values.\n\nWhat is the best value of K you obtained using the above instructions?\n\nOptions\n\nA) 1\n\nB) 3\n\nC) 7\n\nD) 11",
+    "context": {
+      "code_context": [
+        "knn_clf = KNeighborsClassifier(metric = 'minkowski', p = 2)\n\ngs_cv = GridSearchCV(knn_clf,\n                  param_grid= {'n_neighbors':[1,3,7,11]},\n                  scoring='accuracy',\n                  cv=5)\n\ngs_cv.fit(X_train,y_train)\ngs_cv.best_params_",
+        "dt_clf = DecisionTreeClassifier(random_state = 64)\n\nparams = {'criterion':['gini','entropy'],\n          'splitter':['best','random'],\n          'min_samples_leaf': [2,4,6,8,10],\n          'max_depth':[3,4,5,6]}\n\n# t=KFold(n_splits = 4, random_state = 64)\ngscv = GridSearchCV(dt_clf,\n                    params,\n                    cv= 4,)\n\ngscv.fit(X_train, y_train)",
+        "y_pred = gscv.best_estimator_.predict(X_test)\nprecision_score(y_test,y_pred)",
+        "gscv.best_estimator_",
+        "gscv.best_params_"
+      ]
+    },
+    "parameters": {},
+    "asks_for": [
+      "accuracy"
+    ],
+    "answer_type": "choice",
+    "precision": null,
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    },
+    "answer": {
+      "status": "source_stated_unverified",
+      "source_answers": [
+        "Ans:\n\nV1: C\n\nV2: D\n\nV3: C\n\nV4: C\n\nV5: C",
+        "Ans:\n\nV1: C\n\nV2: D\n\nV3: C\n\nV4: C\n\nV5: C"
+      ]
+    },
+    "question_id": "MLP-OPPE-CAN-0021",
+    "canonical_question": "## Q8. [4 marks] [MCQ] Use Gridsearchcv with KNeighborsClassifier estimator, accuracy as scoring parameter, cv= 5. Consider [1,3,7,11] as K values to be examined.\n* Consider following parameters for KNeighborsClassifier:\n\n - Take metric as 'minkowski',\n - Set P value as 2\n\n- Keep other parameter values as default values.\n\nWhat is the best value of K you obtained using the above instructions?\n\nOptions\n\nA) 1\n\nB) 3\n\nC) 7\n\nD) 11",
+    "source_evidence": {
+      "source_count": 2
+    }
+  },
+  {
+    "pattern_id": "PAT-63a351909d",
+    "topic": "Data Understanding / Statistics",
+    "subtopic": "Model Evaluation",
+    "algorithm": [],
+    "question_type": "nat",
+    "question": "## Q9. [Marks: 4][NAT] Enter the value of the precision on the test set using the best model:",
+    "context": {
+      "code_context": [
+        "dt_clf = DecisionTreeClassifier(random_state = 64)\n\nparams = {'criterion':['gini','entropy'],\n          'splitter':['best','random'],\n          'min_samples_leaf': [2,4,6,8,10],\n          'max_depth':[3,4,5,6]}\n\n# t=KFold(n_splits = 4, random_state = 64)\ngscv = GridSearchCV(dt_clf,\n                    params,\n                    cv= 4,)\n\ngscv.fit(X_train, y_train)",
+        "y_pred = gscv.best_estimator_.predict(X_test)\nprecision_score(y_test,y_pred)",
+        "gscv.best_estimator_",
+        "gscv.best_params_",
+        "gscv.best_params_['max_depth']"
+      ]
+    },
+    "parameters": {},
+    "asks_for": [
+      "precision",
+      "mode"
+    ],
+    "answer_type": "numeric",
+    "precision": null,
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    },
+    "answer": {
+      "status": "source_stated_unverified",
+      "source_answers": [
+        "Answer:\n\nV1: 0.905 (Range : 0.89 ,0.93)\n\nV2: 0.907 (Range: 0.89, 0.93)\n\nV3: 0.928 (Range: 0.89, 0.94)\n  \nV4: 0.928 (Range: 0.89, 0.94)  \n   \nV5: 0.887  (Range: 0.840, 0.920)",
+        "Answer:\n\nV1: 0.905 (Range : 0.89 ,0.93)\n\nV2: 0.907 (Range: 0.89, 0.93)\n\nV3: 0.928 (Range: 0.89, 0.94)\n  \nV4: 0.928 (Range: 0.89, 0.94)  \n   \nV5: 0.887  (Range: 0.840, 0.920)"
+      ]
+    },
+    "question_id": "MLP-OPPE-CAN-0022",
+    "canonical_question": "## Q9. [Marks: 4][NAT] Enter the value of the precision on the test set using the best model:",
+    "source_evidence": {
+      "source_count": 2
+    }
+  },
+  {
+    "pattern_id": "PAT-bff00098b9",
+    "topic": "Data Understanding / Statistics",
+    "subtopic": "Hyperparameter Tuning",
+    "algorithm": [],
+    "question_type": "mcq",
+    "question": "## Q10:[Marks: 4] [MCQ] Enter the value of max_depth of the best estimator you got after training with GridSearchCV.\n\nA) 3\n\nB) 4\n\nC) 5\n\nD) 6",
+    "context": {
+      "code_context": [
+        "gscv.best_params_['max_depth']",
+        "gscv.best_params_['min_samples_leaf']",
+        "gscv.best_estimator_.tree_.node_count",
+        "n_estimators = range(5,11)\n\nparam_grid = {\"n_estimators\":n_estimators}\n\nrf_gs = GridSearchCV(RandomForestClassifier(random_state = 64),\n                     param_grid = param_grid)\nrf_gs.fit(X_train,y_train)\n\nrf_gs.best_params_"
+      ]
+    },
+    "parameters": {},
+    "asks_for": [
+      "max_depth"
+    ],
+    "answer_type": "choice",
+    "precision": null,
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    },
+    "answer": {
+      "status": "source_stated_unverified",
+      "source_answers": [
+        "Answer: D (all versions)",
+        "Answer: D (all versions)"
+      ]
+    },
+    "question_id": "MLP-OPPE-CAN-0023",
+    "canonical_question": "## Q10:[Marks: 4] [MCQ] Enter the value of max_depth of the best estimator you got after training with GridSearchCV.\n\nA) 3\n\nB) 4\n\nC) 5\n\nD) 6",
+    "source_evidence": {
+      "source_count": 2
+    }
+  },
+  {
+    "pattern_id": "PAT-2f5f9aa77b",
+    "topic": "Data Understanding / Statistics",
+    "subtopic": "Hyperparameter Tuning",
+    "algorithm": [],
+    "question_type": "mcq",
+    "question": "## Q11[Marks: 4 ][NAT] Enter the value of min_samples_leaf of the best estimator after training with GridSearchCV.\n\nA) 2\n\nB) 4\n\nC) 6\n\nD) 8\n\nE) 10",
+    "context": {
+      "code_context": [
+        "gscv.best_params_['min_samples_leaf']",
+        "gscv.best_estimator_.tree_.node_count",
+        "n_estimators = range(5,11)\n\nparam_grid = {\"n_estimators\":n_estimators}\n\nrf_gs = GridSearchCV(RandomForestClassifier(random_state = 64),\n                     param_grid = param_grid)\nrf_gs.fit(X_train,y_train)\n\nrf_gs.best_params_"
+      ]
+    },
+    "parameters": {},
+    "asks_for": [
+      "min_samples_leaf"
+    ],
+    "answer_type": "choice",
+    "precision": null,
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    },
+    "answer": {
+      "status": "source_stated_unverified",
+      "source_answers": [
+        "Answer:\n\nV1: A\n\nV2: C\n\nV3: D\n  \nV4: E\n   \nV5: A",
+        "Answer:\n\nV1: A\n\nV2: C\n\nV3: D\n  \nV4: E\n   \nV5: A"
+      ]
+    },
+    "question_id": "MLP-OPPE-CAN-0024",
+    "canonical_question": "## Q11[Marks: 4 ][NAT] Enter the value of min_samples_leaf of the best estimator after training with GridSearchCV.\n\nA) 2\n\nB) 4\n\nC) 6\n\nD) 8\n\nE) 10",
+    "source_evidence": {
+      "source_count": 2
+    }
+  },
+  {
+    "pattern_id": "PAT-3ac48be36e",
+    "topic": "Data Understanding / Statistics",
+    "subtopic": "Model Training / Configuration",
+    "algorithm": [],
+    "question_type": "nat",
+    "question": "## Q12[Marks : 4] [NAT]  What is the number of nodes in the optimal tree?",
+    "context": {
+      "code_context": [
+        "gscv.best_estimator_.tree_.node_count",
+        "n_estimators = range(5,11)\n\nparam_grid = {\"n_estimators\":n_estimators}\n\nrf_gs = GridSearchCV(RandomForestClassifier(random_state = 64),\n                     param_grid = param_grid)\nrf_gs.fit(X_train,y_train)\n\nrf_gs.best_params_",
+        "params = {'n_estimators':[10,20,30],\n          'learning_rate':[0.5,1,2]}\nadc = AdaBoostClassifier(random_state = 64)\ngscv_ab = GridSearchCV(adc,\n                       params,\n                       cv=5)\n\ngscv_ab.fit(X_train, y_train)",
+        "cm = confusion_matrix(y_test, gscv_ab.best_estimator_.predict(X_test))\ncm[0][1] + cm[1][0]"
+      ]
