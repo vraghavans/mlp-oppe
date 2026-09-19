@@ -1,0 +1,1000 @@
+[
+  {
+    "pattern_id": "PAT-73cc859c52",
+    "topic": "Preprocessing / Data Cleaning",
+    "subtopic": "Data Analysis",
+    "algorithms": [],
+    "asks_for": [],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0001",
+      "MLP-OPPE-CAN-0002",
+      "MLP-OPPE-CAN-0003",
+      "MLP-OPPE-CAN-0004",
+      "MLP-OPPE-CAN-0005",
+      "MLP-OPPE-CAN-0049",
+      "MLP-OPPE-CAN-0071",
+      "MLP-OPPE-CAN-0081",
+      "MLP-OPPE-CAN-0082",
+      "MLP-OPPE-CAN-0098",
+      "MLP-OPPE-CAN-0099",
+      "MLP-OPPE-CAN-0100",
+      "MLP-OPPE-CAN-0101",
+      "MLP-OPPE-CAN-0102",
+      "MLP-OPPE-CAN-0103",
+      "MLP-OPPE-CAN-0124",
+      "MLP-OPPE-CAN-0154",
+      "MLP-OPPE-CAN-0155",
+      "MLP-OPPE-CAN-0156",
+      "MLP-OPPE-CAN-0159",
+      "MLP-OPPE-CAN-0172",
+      "MLP-OPPE-CAN-0177",
+      "MLP-OPPE-CAN-0193",
+      "MLP-OPPE-CAN-0194",
+      "MLP-OPPE-CAN-0195",
+      "MLP-OPPE-CAN-0198",
+      "MLP-OPPE-CAN-0211",
+      "MLP-OPPE-CAN-0237",
+      "MLP-OPPE-CAN-0238",
+      "MLP-OPPE-CAN-0239",
+      "MLP-OPPE-CAN-0240",
+      "MLP-OPPE-CAN-0241",
+      "MLP-OPPE-CAN-0242"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-3d35ab6f64",
+    "topic": "Preprocessing / Data Cleaning",
+    "subtopic": "Data Analysis",
+    "algorithms": [],
+    "asks_for": [
+      "mean",
+      "missing values"
+    ],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0006",
+      "MLP-OPPE-CAN-0104",
+      "MLP-OPPE-CAN-0138",
+      "MLP-OPPE-CAN-0175",
+      "MLP-OPPE-CAN-0217",
+      "MLP-OPPE-CAN-0243"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-7dedc6ee35",
+    "topic": "Preprocessing / Data Cleaning",
+    "subtopic": "Data Analysis",
+    "algorithms": [],
+    "asks_for": [
+      "missing values"
+    ],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0007",
+      "MLP-OPPE-CAN-0008",
+      "MLP-OPPE-CAN-0053",
+      "MLP-OPPE-CAN-0080",
+      "MLP-OPPE-CAN-0105",
+      "MLP-OPPE-CAN-0106",
+      "MLP-OPPE-CAN-0139",
+      "MLP-OPPE-CAN-0140",
+      "MLP-OPPE-CAN-0157",
+      "MLP-OPPE-CAN-0196",
+      "MLP-OPPE-CAN-0214",
+      "MLP-OPPE-CAN-0215",
+      "MLP-OPPE-CAN-0216",
+      "MLP-OPPE-CAN-0219",
+      "MLP-OPPE-CAN-0244",
+      "MLP-OPPE-CAN-0245"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-c941f481b7",
+    "topic": "Data Understanding / Statistics",
+    "subtopic": "Data Analysis",
+    "algorithms": [],
+    "asks_for": [],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0009",
+      "MLP-OPPE-CAN-0015",
+      "MLP-OPPE-CAN-0031",
+      "MLP-OPPE-CAN-0050",
+      "MLP-OPPE-CAN-0070",
+      "MLP-OPPE-CAN-0072",
+      "MLP-OPPE-CAN-0079",
+      "MLP-OPPE-CAN-0107",
+      "MLP-OPPE-CAN-0171",
+      "MLP-OPPE-CAN-0173",
+      "MLP-OPPE-CAN-0174",
+      "MLP-OPPE-CAN-0210",
+      "MLP-OPPE-CAN-0246"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-495707279a",
+    "topic": "Data Understanding / Statistics",
+    "subtopic": "Data Analysis",
+    "algorithms": [],
+    "asks_for": [
+      "distribution"
+    ],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0010",
+      "MLP-OPPE-CAN-0051",
+      "MLP-OPPE-CAN-0108",
+      "MLP-OPPE-CAN-0247"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-714b064d1b",
+    "topic": "Data Understanding / Statistics",
+    "subtopic": "Data Analysis",
+    "algorithms": [],
+    "asks_for": [
+      "shape"
+    ],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0011",
+      "MLP-OPPE-CAN-0016",
+      "MLP-OPPE-CAN-0055",
+      "MLP-OPPE-CAN-0056",
+      "MLP-OPPE-CAN-0090",
+      "MLP-OPPE-CAN-0097",
+      "MLP-OPPE-CAN-0109"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-5b3507ac1f",
+    "topic": "Data Understanding / Statistics",
+    "subtopic": "Data Analysis",
+    "algorithms": [],
+    "asks_for": [
+      "mean"
+    ],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0012",
+      "MLP-OPPE-CAN-0084",
+      "MLP-OPPE-CAN-0110",
+      "MLP-OPPE-CAN-0161",
+      "MLP-OPPE-CAN-0166",
+      "MLP-OPPE-CAN-0201",
+      "MLP-OPPE-CAN-0205"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-3188553802",
+    "topic": "LogisticRegression",
+    "subtopic": "Data Analysis",
+    "algorithms": [
+      "LogisticRegression"
+    ],
+    "asks_for": [
+      "mode"
+    ],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0013",
+      "MLP-OPPE-CAN-0144"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-38143c15ce",
+    "topic": "Data Understanding / Statistics",
+    "subtopic": "Model Training / Configuration",
+    "algorithms": [],
+    "asks_for": [],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0014",
+      "MLP-OPPE-CAN-0030",
+      "MLP-OPPE-CAN-0032",
+      "MLP-OPPE-CAN-0041",
+      "MLP-OPPE-CAN-0048",
+      "MLP-OPPE-CAN-0064",
+      "MLP-OPPE-CAN-0068",
+      "MLP-OPPE-CAN-0073",
+      "MLP-OPPE-CAN-0074",
+      "MLP-OPPE-CAN-0076",
+      "MLP-OPPE-CAN-0078",
+      "MLP-OPPE-CAN-0083",
+      "MLP-OPPE-CAN-0085",
+      "MLP-OPPE-CAN-0112",
+      "MLP-OPPE-CAN-0119",
+      "MLP-OPPE-CAN-0120",
+      "MLP-OPPE-CAN-0125",
+      "MLP-OPPE-CAN-0127",
+      "MLP-OPPE-CAN-0133",
+      "MLP-OPPE-CAN-0134",
+      "MLP-OPPE-CAN-0135",
+      "MLP-OPPE-CAN-0137",
+      "MLP-OPPE-CAN-0150",
+      "MLP-OPPE-CAN-0151",
+      "MLP-OPPE-CAN-0152",
+      "MLP-OPPE-CAN-0153",
+      "MLP-OPPE-CAN-0158",
+      "MLP-OPPE-CAN-0167",
+      "MLP-OPPE-CAN-0176",
+      "MLP-OPPE-CAN-0183",
+      "MLP-OPPE-CAN-0184",
+      "MLP-OPPE-CAN-0186",
+      "MLP-OPPE-CAN-0187",
+      "MLP-OPPE-CAN-0189",
+      "MLP-OPPE-CAN-0190",
+      "MLP-OPPE-CAN-0191",
+      "MLP-OPPE-CAN-0192",
+      "MLP-OPPE-CAN-0197",
+      "MLP-OPPE-CAN-0207",
+      "MLP-OPPE-CAN-0212",
+      "MLP-OPPE-CAN-0213",
+      "MLP-OPPE-CAN-0220",
+      "MLP-OPPE-CAN-0221",
+      "MLP-OPPE-CAN-0223",
+      "MLP-OPPE-CAN-0230",
+      "MLP-OPPE-CAN-0236"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-f7af5fa6e4",
+    "topic": "LogisticRegression",
+    "subtopic": "Model Evaluation",
+    "algorithms": [
+      "LogisticRegression"
+    ],
+    "asks_for": [
+      "recall",
+      "mode"
+    ],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0017"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-6f8f34c216",
+    "topic": "Perceptron",
+    "subtopic": "Model Evaluation",
+    "algorithms": [
+      "Perceptron"
+    ],
+    "asks_for": [
+      "accuracy",
+      "mode"
+    ],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0018"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-7b0637d453",
+    "topic": "Perceptron",
+    "subtopic": "Data Analysis",
+    "algorithms": [
+      "Perceptron"
+    ],
+    "asks_for": [
+      "bias",
+      "intercept",
+      "mode"
+    ],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0019"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-6732655069",
+    "topic": "SGDClassifier",
+    "subtopic": "Model Evaluation",
+    "algorithms": [
+      "SGDClassifier",
+      "Ridge"
+    ],
+    "asks_for": [
+      "f1_score",
+      "mode"
+    ],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0020",
+      "MLP-OPPE-CAN-0036",
+      "MLP-OPPE-CAN-0077",
+      "MLP-OPPE-CAN-0128",
+      "MLP-OPPE-CAN-0145"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-c1ffc1c0ac",
+    "topic": "KNeighborsClassifier",
+    "subtopic": "Hyperparameter Tuning",
+    "algorithms": [
+      "KNeighborsClassifier"
+    ],
+    "asks_for": [
+      "accuracy"
+    ],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0021",
+      "MLP-OPPE-CAN-0061"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-63a351909d",
+    "topic": "Data Understanding / Statistics",
+    "subtopic": "Model Evaluation",
+    "algorithms": [],
+    "asks_for": [
+      "precision",
+      "mode"
+    ],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0022",
+      "MLP-OPPE-CAN-0035"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-bff00098b9",
+    "topic": "Data Understanding / Statistics",
+    "subtopic": "Hyperparameter Tuning",
+    "algorithms": [],
+    "asks_for": [
+      "max_depth"
+    ],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0023"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-2f5f9aa77b",
+    "topic": "Data Understanding / Statistics",
+    "subtopic": "Hyperparameter Tuning",
+    "algorithms": [],
+    "asks_for": [
+      "min_samples_leaf"
+    ],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0024"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-3ac48be36e",
+    "topic": "Data Understanding / Statistics",
+    "subtopic": "Model Training / Configuration",
+    "algorithms": [],
+    "asks_for": [
+      "number of nodes"
+    ],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0025",
+      "MLP-OPPE-CAN-0042",
+      "MLP-OPPE-CAN-0095"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-2e6808718b",
+    "topic": "DecisionTreeClassifier",
+    "subtopic": "Hyperparameter Tuning",
+    "algorithms": [
+      "DecisionTreeClassifier",
+      "RandomForestClassifier"
+    ],
+    "asks_for": [],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0026",
+      "MLP-OPPE-CAN-0066"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-fd2fc3235b",
+    "topic": "Data Understanding / Statistics",
+    "subtopic": "Hyperparameter Tuning",
+    "algorithms": [],
+    "asks_for": [
+      "misclassified",
+      "mode"
+    ],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0027"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-cc76877643",
+    "topic": "Data Understanding / Statistics",
+    "subtopic": "Hyperparameter Tuning",
+    "algorithms": [],
+    "asks_for": [
+      "n_estimators",
+      "mode"
+    ],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0028",
+      "MLP-OPPE-CAN-0096"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-dea55c89ed",
+    "topic": "SVC/SVM",
+    "subtopic": "Hyperparameter Tuning",
+    "algorithms": [
+      "SVC/SVM"
+    ],
+    "asks_for": [
+      "kernel",
+      "mode"
+    ],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0029",
+      "MLP-OPPE-CAN-0047"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-da1c397623",
+    "topic": "LogisticRegression",
+    "subtopic": "Model Evaluation",
+    "algorithms": [
+      "LogisticRegression"
+    ],
+    "asks_for": [
+      "f1 score",
+      "mode"
+    ],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0033"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-3263b2c6c2",
+    "topic": "Data Understanding / Statistics",
+    "subtopic": "Data Analysis",
+    "algorithms": [],
+    "asks_for": [
+      "bias",
+      "intercept",
+      "mode"
+    ],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0034"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-508c9b18cf",
+    "topic": "KNeighborsClassifier",
+    "subtopic": "Hyperparameter Tuning",
+    "algorithms": [
+      "KNeighborsClassifier"
+    ],
+    "asks_for": [],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0037"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-c87551c66d",
+    "topic": "DecisionTreeClassifier",
+    "subtopic": "Hyperparameter Tuning",
+    "algorithms": [
+      "DecisionTreeClassifier"
+    ],
+    "asks_for": [
+      "entropy",
+      "mode"
+    ],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0038"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-6bcfb31263",
+    "topic": "Data Understanding / Statistics",
+    "subtopic": "Hyperparameter Tuning",
+    "algorithms": [],
+    "asks_for": [],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0039",
+      "MLP-OPPE-CAN-0044",
+      "MLP-OPPE-CAN-0046"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-c765990843",
+    "topic": "DecisionTreeClassifier",
+    "subtopic": "Model Evaluation",
+    "algorithms": [
+      "DecisionTreeClassifier"
+    ],
+    "asks_for": [
+      "entropy"
+    ],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0040"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-a9d508602f",
+    "topic": "RandomForestClassifier",
+    "subtopic": "Hyperparameter Tuning",
+    "algorithms": [
+      "RandomForestClassifier"
+    ],
+    "asks_for": [
+      "misclassified",
+      "n_estimators",
+      "mode"
+    ],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0043"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-2fd410ee21",
+    "topic": "AdaBoostClassifier",
+    "subtopic": "Hyperparameter Tuning",
+    "algorithms": [
+      "AdaBoostClassifier"
+    ],
+    "asks_for": [
+      "accuracy",
+      "n_estimators",
+      "mode"
+    ],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0045"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-31ea16fcb1",
+    "topic": "Preprocessing / Data Cleaning",
+    "subtopic": "Preprocessing",
+    "algorithms": [
+      "Preprocessing"
+    ],
+    "asks_for": [],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0052",
+      "MLP-OPPE-CAN-0054",
+      "MLP-OPPE-CAN-0089"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-3c41eb9870",
+    "topic": "Perceptron",
+    "subtopic": "Model Training / Configuration",
+    "algorithms": [
+      "Perceptron"
+    ],
+    "asks_for": [
+      "intercept",
+      "eta0"
+    ],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0057"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-d9cce41fcd",
+    "topic": "LogisticRegression",
+    "subtopic": "Model Evaluation",
+    "algorithms": [
+      "LogisticRegression",
+      "SGDClassifier",
+      "Ridge"
+    ],
+    "asks_for": [
+      "accuracy",
+      "mean"
+    ],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0058"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-c48271cb0c",
+    "topic": "LogisticRegression",
+    "subtopic": "Hyperparameter Tuning",
+    "algorithms": [
+      "LogisticRegression"
+    ],
+    "asks_for": [],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0059"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-ba7ebad166",
+    "topic": "SVC/SVM",
+    "subtopic": "Hyperparameter Tuning",
+    "algorithms": [
+      "SVC/SVM"
+    ],
+    "asks_for": [
+      "kernel"
+    ],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0060"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-b183303d2b",
+    "topic": "Data Understanding / Statistics",
+    "subtopic": "Model Evaluation",
+    "algorithms": [],
+    "asks_for": [
+      "accuracy"
+    ],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0062"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-cc7ffee533",
+    "topic": "DecisionTreeClassifier",
+    "subtopic": "Model Evaluation",
+    "algorithms": [
+      "DecisionTreeClassifier"
+    ],
+    "asks_for": [
+      "accuracy",
+      "mean",
+      "mode"
+    ],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0063"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-18f0f177f7",
+    "topic": "Data Understanding / Statistics",
+    "subtopic": "Model Evaluation",
+    "algorithms": [],
+    "asks_for": [
+      "gini impurity",
+      "mode"
+    ],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0065"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-4c93ceb13e",
+    "topic": "LogisticRegression",
+    "subtopic": "Model Evaluation",
+    "algorithms": [
+      "LogisticRegression",
+      "KNeighborsClassifier",
+      "DecisionTreeClassifier",
+      "SVC/SVM",
+      "BaggingClassifier"
+    ],
+    "asks_for": [
+      "accuracy",
+      "n_estimators"
+    ],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0067"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
+  {
+    "pattern_id": "PAT-30c3a17bc9",
+    "topic": "Data Understanding / Statistics",
+    "subtopic": "Data Analysis",
+    "algorithms": [],
+    "asks_for": [
+      "unique values"
+    ],
+    "canonical_question_ids": [
+      "MLP-OPPE-CAN-0069",
+      "MLP-OPPE-CAN-0209"
+    ],
+    "generation_constraints": {
+      "preserve_algorithm": true,
+      "preserve_explicit_parameters": true,
+      "preserve_dataset_and_target": true,
+      "preserve_random_state": true,
+      "do_not_invent_missing_information": true,
+      "do_not_change_scoring_metric": true
+    }
+  },
